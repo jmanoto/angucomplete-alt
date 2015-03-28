@@ -162,7 +162,7 @@ angular.module('angucomplete-alt', [] )
         callOrAssign({originalObject: str});
 
         if (scope.clearSelected) {
-          scope.searchStr = null;
+          // scope.searchStr = null;
         }
         clearResults();
       }
@@ -251,7 +251,7 @@ angular.module('angucomplete-alt', [] )
             }, scope.pause);
           }
 
-          if (validState && validState !== scope.searchStr && !scope.clearSelected) {
+          if (validState && validState !== scope.searchStr) { // && !scope.clearSelected Always callOrAssign
             callOrAssign(undefined);
           }
         }
@@ -570,7 +570,7 @@ angular.module('angucomplete-alt', [] )
         }
 
         if (scope.clearSelected) {
-          scope.searchStr = null;
+          // scope.searchStr = null;
         }
         else {
           scope.searchStr = result.title;

@@ -1,11 +1,11 @@
 {
-  "name": "angucomplete-alt",
+  "name": "angucomplete-alt-jm",
   "version": "0.0.34",
   "homepage": "http://ghiden.github.io/angucomplete-alt/",
   "authors": [
-    "Hidenari Nozaki <hidenari@gmail.com>"
+    "Jeremy Manoto <jeremy@manoto.com.au> (original: Hidenari Nozaki <hidenari@gmail.com>)"
   ],
-  "description": "Autocomplete directive for AngularJS",
+  "description": "Autocomplete directive for AngularJS (JM)",
   "keywords": [
     "autocomplete",
     "typeahead",
